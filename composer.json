@@ -1,0 +1,40 @@
+{
+    "name": "ssbhattarai/file-manager",
+    "description": "A Laravel package for file management with multiple storage options and a dynamic UI.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "file manager", "storage", "s3", "local storage"],
+    "authors": [
+      {
+        "name": "ssbhattarai",
+        "email": "nascentsurya@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "YourVendor\\FileManager\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "YourVendor\\FileManager\\Tests\\": "tests/"
+      }
+    },
+    "require": {
+      "php": ">=8.0",
+      "illuminate/support": "^10.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "ssbhattarai\\FileManager\\FileManagerServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  }
+  
