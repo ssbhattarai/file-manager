@@ -12,12 +12,12 @@
     ],
     "autoload": {
       "psr-4": {
-        "YourVendor\\FileManager\\": "src/"
+        "ssbhattarai\\FileManager\\": "src/"
       }
     },
     "autoload-dev": {
       "psr-4": {
-        "YourVendor\\FileManager\\Tests\\": "tests/"
+        "ssbhattarai\\FileManager\\Tests\\": "tests/"
       }
     },
     "require": {
