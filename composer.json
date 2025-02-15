@@ -30,7 +30,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "ssbhattarai\\FileManager\\FileManagerServiceProvider"
+          "ssbhattarai\\file-manager\\FileManagerServiceProvider"
         ]
       }
     },
