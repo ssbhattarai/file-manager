@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\FileManager;
+namespace ssbhattarai\FileManager;
 
 use Illuminate\Support\ServiceProvider;
 
